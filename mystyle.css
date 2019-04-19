@@ -1,18 +1,22 @@
 body {
-    background-color: #183661;
+    background-color: #eeeeee;
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
     
 }
 
 
 h1, H2, H3, H4 {
-    color: #dae1e7;
+    
 }
 
 
 main {
     text-align: center;
+    background-color: #364f6b;
     
     
 }
@@ -28,7 +32,7 @@ table, th, tr, td {
 }
 
 hr {
-    border: dashed #dd6b4d 5px;
+    border: dashed #3fc1c9 5px;
 }
 
 img {
@@ -61,6 +65,7 @@ img {
 .code {
     width: 50%;
     margin-left: 150px;
+    background-color: whitesmoke;
 }
 
 .different {
@@ -71,4 +76,9 @@ img {
 .download {
     width: 50%;
     margin-left: 150px;
+}
+
+#titlecode {
+    text-transform: uppercase;
+    color: black;
 }
