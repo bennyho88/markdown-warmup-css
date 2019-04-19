@@ -1,17 +1,20 @@
 body {
-    background-color: #247e6c;
+    background-color: #183661;
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
+    
 }
 
 
 h1, H2, H3, H4 {
-    color: #eaf5ff;
+    color: #dae1e7;
 }
 
 
 main {
     text-align: center;
+    
+    
 }
 
 footer {
@@ -20,14 +23,52 @@ footer {
 
 table, th, tr, td {
     border: solid black 1px;
+    background-color: grey;
 
 }
 
 hr {
-    border: dashed #a9c6de 5px;
+    border: dashed #dd6b4d 5px;
 }
 
 img {
     margin:50px 0 50px;
     border-radius: 25%;
+}
+
+.posandcons {
+    width: 50%;
+    margin-left: 150px;
+}
+
+.table {
+    width: 50%;
+    margin-left: 150px;
+    background-color: 
+}
+
+.reason {
+    width: 50%;
+    margin-left: 150px;
+
+}
+
+.tasklist {
+    width: 50%;
+    margin-left: 150px;
+}
+
+.code {
+    width: 50%;
+    margin-left: 150px;
+}
+
+.different {
+    width: 50%;
+    margin-left: 150px;
+}
+
+.download {
+    width: 50%;
+    margin-left: 150px;
 }
