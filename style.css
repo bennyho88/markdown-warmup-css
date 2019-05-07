@@ -1,0 +1,118 @@
+body {
+  background-color: #DAEECB;
+  width: 100%;
+  margin: 0 auto;
+  color: #404756;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+main {
+  background-color: #1378D2;
+  text-align: center;
+  padding-top: 5px;
+}
+
+main h1, main h2 {
+  color: whitesmoke;
+}
+
+H3, H4 {
+  text-decoration: underline;
+}
+
+hr {
+  width: 100%;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #D0B7A8;
+  border-width: 5px;
+}
+
+#titlecode {
+  text-transform: uppercase;
+  color: black;
+}
+
+img {
+  margin: 50px 0 50px;
+  border-radius: 25%;
+}
+
+.bodyclr {
+  padding: 100px;
+  width: 75%;
+  position: relative;
+  left: 75px;
+  background-color: #DAEECB;
+}
+
+.bodyclr .posandcons {
+  width: 50%;
+  margin-left: 150px;
+}
+
+.bodyclr .posandcons .pos {
+  padding: 50px;
+  background-color: #BCD256;
+  list-style-type: none;
+}
+
+.bodyclr .posandcons .cons {
+  padding: 50px;
+  background-color: #ED6757;
+}
+
+.bodyclr .table {
+  width: 50%;
+  margin-left: 150px;
+}
+
+.bodyclr .reason {
+  width: 50%;
+  margin-left: 150px;
+}
+
+.bodyclr .tasklist {
+  width: 50%;
+  margin-left: 150px;
+}
+
+.bodyclr .code {
+  width: 50%;
+  margin-left: 150px;
+  background-color: #E6F4F1;
+}
+
+.bodyclr .different, .bodyclr .download {
+  width: 50%;
+  margin-left: 150px;
+}
+
+table, th, tr, td {
+  border: solid black 1px;
+  background-color: #E6F4F1;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #bd5442;
+}
+
+footer {
+  background-color: #DAEECB;
+  padding: 50px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+footer .footborder {
+  padding: 40px;
+  border: solid black 5px;
+  border-color: #1B7C89;
+}
+/*# sourceMappingURL=style.css.map */

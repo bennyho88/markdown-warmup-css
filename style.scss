@@ -1,0 +1,146 @@
+$primary-color: #DAEECB;
+$heading-color: whitesmoke;
+$main-color: #1378D2;
+$code-color: #E6F4F1;
+$black-border: solid black 1px;
+$footer-color: #1B7C89;
+$padding: 50px;
+$pos-color: #BCD256;
+$cons-color: #ED6757;
+$link-color: #bd5442;
+$hr-color: #D0B7A8;
+$text-color: #404756;
+
+@mixin position {
+    width: 50%;
+    margin-left: 150px;
+}
+
+body {
+    background-color: $primary-color;
+    width: 100%;
+    margin: 0 auto;
+    color: $text-color;
+
+    font: {
+        family: Arial, Helvetica, sans-serif;
+        size: 20px;
+        weight: 400;
+    }
+
+    
+}
+
+main {
+    background-color: $main-color;
+    text-align: center;
+    padding-top: 5px;
+
+    h1, h2 {
+        color: whitesmoke;
+    }
+}
+
+H3, H4 {
+    text-decoration: underline;
+}
+
+hr {
+
+    width: 100%;
+
+    border: {
+        style: none;
+        top-style: dotted;
+        color: $hr-color;
+        width: 5px;
+    }
+   
+    
+}
+
+#titlecode {
+    text-transform: uppercase;
+    color: black;
+}
+
+img {
+    margin:50px 0 50px;
+    border-radius: (100% / 4);
+}
+.bodyclr {
+    padding: 100px;
+    width: (100% / 4) * 3;
+    position: relative;
+    left: 75px;
+    background-color: $primary-color;
+
+    .posandcons {
+        @include position();
+
+        .pos {
+            padding: $padding;
+            background-color: $pos-color;
+            list-style-type: none;
+        }
+
+        .cons {
+            padding: $padding;
+            background-color: $cons-color;
+        }
+    }
+    
+    .table {
+        @include position();
+    
+    }
+    
+    .reason {
+        @include position();
+    
+    }
+    
+    .tasklist {
+        @include position();
+    }
+    
+    .code {
+        @include position();
+        background-color: $code-color;
+    }
+    
+    .different {
+        width: 50%;
+        margin-left: 150px;
+    }
+    
+    .download {
+        @extend .different;
+    }
+}
+
+table, th, tr, td {
+    border: $black-border;
+    background-color: $code-color;
+
+}
+
+a {
+    text-decoration: none;
+    &:hover {
+        color: $link-color;
+    }
+}
+
+footer {
+    background-color: $primary-color;
+    padding: $padding;
+    text-align: center;
+    padding-top: 20px;
+
+    .footborder {
+        padding: 40px;
+        border: solid black 5px;
+        border-color: $footer-color;
+    }
+}
